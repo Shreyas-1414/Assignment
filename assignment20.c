@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-// Function without pointers (Call by Value)
 void swapValue(int a, int b) {
     int temp;
     temp = a;
@@ -11,7 +9,7 @@ void swapValue(int a, int b) {
     printf("a = %d b = %d\n", a, b);
 }
 
-// Function with pointers (Call by Reference)
+
 void swapPointer(int *x, int *y) {
     int temp;
     temp = *x;
@@ -25,10 +23,10 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    // Call by value
+    
     swapValue(a, b);
 
-    // Call by reference
+    
     swapPointer(&a, &b);
 
     printf("\nAfter swapping with pointers:\n");
