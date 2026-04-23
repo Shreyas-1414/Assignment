@@ -12,7 +12,7 @@ void main()
     int result = log10(n);
     int digits = result + 1;
 
-    //printf("%d", digits);
+    
 
     int total = 0;
     while (n > 0)
@@ -21,7 +21,7 @@ void main()
         total = total + round((pow(last_digit,digits)));
         n = n / 10;
     };
-    //printf("%d", total);
+    
 
     if (total == num) {
         printf("Number is armstrong");
