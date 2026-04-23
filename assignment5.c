@@ -17,7 +17,7 @@ int main() {
         for(j=0;j<c;j++)
             scanf("%d",&B[i][j]);
 
-    // Matrix Addition
+
     printf("\nMatrix Addition:\n");
     for(i=0;i<r;i++){
         for(j=0;j<c;j++){
@@ -27,7 +27,7 @@ int main() {
         printf("\n");
     }
 
-    // Saddle Point
+    
     int min, col, saddle=0;
     for(i=0;i<r;i++){
         min=A[i][0];
@@ -57,7 +57,7 @@ int main() {
     if(!saddle)
         printf("\nNo Saddle Point Found\n");
 
-    // Magic Square Check
+    
     if(r==c){
         int sum=0, magic=1;
 
