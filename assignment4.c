@@ -6,9 +6,9 @@ int main() {
     printf("Enter Basic Salary: ");
     scanf("%f", &bs);
 
-    hra = 0.10 * bs;   // 10% HRA
-    ta  = 0.05 * bs;   // 5% TA
-    ts  = 0.02 * bs;   // 2% TS (deduction)
+    hra = 0.10 * bs;   
+    ta  = 0.05 * bs;   
+    ts  = 0.02 * bs;   
 
     gross = bs + hra + ta - ts;
 
