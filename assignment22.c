@@ -12,14 +12,14 @@ int main() {
     gets(str2);
 
     do {
-        printf("\n========== MENU ==========\n");
+        printf("\nMENU\n");
         printf("1. Find Length of First String\n");
         printf("2. Copy First String to Second\n");
         printf("3. Concatenate Strings\n");
         printf("4. Compare Strings\n");
         printf("5. Reverse First String\n");
         printf("6. Exit\n");
-        printf("==========================\n");
+        printf("\n");
 
         printf("Enter your choice: ");
         scanf("%d", &choice);
